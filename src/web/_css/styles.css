@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+    background: url("../_image/norwegian_rose_@2X.png");
+}
+
+div.div {
+    background: #cccccc;
+    width: 75%;
+    box-shadow: 0px 0px 10px black;
+    margin: 20px auto 0px auto;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+input, textarea {
+    font-family: "times new roman";
+    font-size: 12pt;
+    border-radius: 3px;
+    width: 100%;
+    font-weight: normal;
+    background-color: rgba(255,255,255,.8);
+}
+
+input.in:hover, textarea:hover {
+    background-color: rgba(227,226,226,.8);
+}
+
+input.btn {
+    float: right;
+    width: 200px;
+    font-size: 15pt;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px black;
+    background: linear-gradient(to bottom, #057ef9, #02509f 130%);
+}
+
+input.btn:hover {
+    background: linear-gradient(to top, #057ef9, #063a6f 110%);
+    cursor: pointer;
+}
+
+legend {
+    color: #0669b5;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color: #cecece;
+    background: url("../icone.ico") no-repeat 100% 100%;
+}
+
+footer {
+    padding: 1px;
+    background: url("../_image/triangles_@2X.png");
+    height: 185px;
+}
+
+footer div.footer {
+    margin: 0px auto 0px auto;
+    width: 90%;
+}
+
+footer div.footer h1 {
+    font-family: "times new roman";
+    color: #b55806;
+}
+
+ul {
+    margin: -10px auto;
+    list-style: none;
+}
+
+li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #b55806;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer div.footer span.copy:before {
+    content: "Copyright © 2017 Siseduc. All Rights Reserved.";
+    font-family: "times new roman";
+    font-size: 9pt;
+    color: white;
+    letter-spacing: 1px;
+    float: right;
+}
